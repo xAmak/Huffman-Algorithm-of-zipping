@@ -1,0 +1,6 @@
+C:\Users\NCIMW\Desktop\All\C#\HuffArch\HuffArch\HuffArch\bin\Debug\HuffArch.exe.config
+C:\Users\NCIMW\Desktop\All\C#\HuffArch\HuffArch\HuffArch\bin\Debug\HuffArch.exe
+C:\Users\NCIMW\Desktop\All\C#\HuffArch\HuffArch\HuffArch\bin\Debug\HuffArch.pdb
+C:\Users\NCIMW\Desktop\All\C#\HuffArch\HuffArch\HuffArch\obj\Debug\HuffArch.csprojResolveAssemblyReference.cache
+C:\Users\NCIMW\Desktop\All\C#\HuffArch\HuffArch\HuffArch\obj\Debug\HuffArch.exe
+C:\Users\NCIMW\Desktop\All\C#\HuffArch\HuffArch\HuffArch\obj\Debug\HuffArch.pdb
