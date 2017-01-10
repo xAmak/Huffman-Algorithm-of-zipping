@@ -18,7 +18,7 @@ namespace HuffArch
         public void Build(char[] input, string adress, bool key, Dictionary<char, int> recollectionTabel)//Массив чар, адрес для сериализации, ключ прохода, востановленный словарь.
         {
 
-            //===============[Постраение/восстановление таблицы и листа с узлами]=====================
+            //===============[Построение/восстановление таблицы и листа с узлами]=====================
             if (key == true)//При новом файле
             {
                 for (int i = 0; i < input.Length; i++)//подсчет символов
@@ -75,7 +75,7 @@ namespace HuffArch
                 }//while (nodes.Count > 1)
     
                }
-        public BitArray Encode(char[] input)//Массив символов и ссылка на форму
+        public BitArray Encode(char[] input)//Массив символов
         {
            
                 List<bool> encodBoolTable = new List<bool>();//Заготовка для массива бит
@@ -109,7 +109,7 @@ namespace HuffArch
        
         }
         //=============================[Декодирование]===============================
-        public string Decode(BitArray masBits)//Массив бит и ссылка на форму
+        public string Decode(BitArray masBits)//Массив бит
         {
                 string decodedText = string.Empty;//Обнуление выходных данных
                 int check = masBits.Length;

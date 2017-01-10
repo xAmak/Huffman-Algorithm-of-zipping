@@ -64,7 +64,7 @@ namespace HuffArch
                         openEncodedFile.Close();
                         Console.WriteLine("File: " + inputFile + " unzipped to " + outputFile + Environment.NewLine);
                     }
-                    catch (System.Runtime.Serialization.SerializationException e)
+                    catch (System.Runtime.Serialization.SerializationException)
                     {
                         Console.WriteLine("Vladislav Olegovich ne beyte, some problems with decoding Unicode pairs :))");
                     }           
